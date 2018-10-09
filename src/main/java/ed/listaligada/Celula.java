@@ -6,9 +6,13 @@ public class Celula {
     private Celula anterior;
     private Celula proximo;
 
-    public Celula(Object elemento, Celula proximo) {
-        this.elemento = elemento;
+    public Celula(Object elemento) {
+        this(null, elemento);
+    }
+
+    public Celula(Celula proximo, Object elemento) {
         this.proximo = proximo;
+        this.elemento = elemento;
     }
 
     public Celula getAnterior() {

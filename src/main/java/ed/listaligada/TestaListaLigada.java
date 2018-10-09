@@ -31,10 +31,17 @@ public class TestaListaLigada {
 
         System.out.println(lista.tamanho());
 
-        lista.remove(2);
+        lista.removeDoFim();
         System.out.println(lista);
 
+        lista.adiciona("João");
+        lista.adiciona("José");
+
+        System.out.println(lista);
         lista.remove(1);
         System.out.println(lista);
+
+        System.out.println(lista.contem("Daniel"));
+        System.out.println(lista.contem("Xisto"));
     }
 }
