@@ -12,7 +12,7 @@ public class TestaListaLigada {
         System.out.println(lista);
         lista.adicionaNoComeco("Talita");
         System.out.println(lista);
-        lista.adicionaNoComeco("PatrÌcia");
+        lista.adicionaNoComeco("Patr√≠cia");
         System.out.println(lista);
 
         lista.adiciona("Albertino");
@@ -34,8 +34,8 @@ public class TestaListaLigada {
         lista.removeDoFim();
         System.out.println(lista);
 
-        lista.adiciona("Jo„o");
-        lista.adiciona("JosÈ");
+        lista.adiciona("Jo√£o");
+        lista.adiciona("Jos√©");
 
         System.out.println(lista);
         lista.remove(1);

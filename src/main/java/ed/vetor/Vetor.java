@@ -27,7 +27,7 @@ public class Vetor {
         this.garanteEspaco();
 
         if(!this.posicaoValida(posicao)) {
-            throw new IllegalArgumentException("posicao inv·lida");
+            throw new IllegalArgumentException("posicao inv√°lida");
         }
 
         for(int i = this.totalDeAlunos - 1; i >= posicao; i-=1) {
@@ -50,7 +50,7 @@ public class Vetor {
 
     public Aluno pega(int posicao) {
         if(!this.posicaoOcupada(posicao)) {
-            throw new IllegalArgumentException("posicao inv·lida");
+            throw new IllegalArgumentException("posicao inv√°lida");
         }
 
         return this.alunos[posicao];
